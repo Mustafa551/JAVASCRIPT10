@@ -236,7 +236,7 @@
 // document.write("yopu will need " + limit + " lays to last you until the ripe old age of " + maxage)
 
 
-// chapter:06
+// chapter:06/09
 
 // task:01
 // var a = 10;
@@ -346,3 +346,230 @@
 // document.write("<br>")
 
 // document.write(`\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + totalmarks + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + totalobtained + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + totalpercent + "%")
+
+
+// Chapter:09-11
+
+// task:01
+// var city = prompt("Enter a city - only Karachi")
+
+// if(city === "karachi" || city === "Karachi"){
+//     alert("Welcome to city of lights")
+// }
+// else{
+//     alert("input is invalid")
+// }
+
+// task:02
+// var gender = prompt("Enter your Gender")
+
+// if(gender === "Male" || gender === "male"){
+//     alert("Good morning sir")
+// }
+// else if(gender === "Female" || gender === "female"){
+//     alert("oood morning mam")
+// }else{
+//     alert("invalid gender")
+// }
+
+// task:03
+// var trafficlight = prompt("Enter a colors which traffic follows - Red, Yellow, Green")
+
+// if(trafficlight === "Red" || trafficlight === "red"){
+//     document.write(`\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + "<b>Signal color</b>" + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + "<b>message</b>")
+//     document.write("<br><br>")
+//     document.write(`\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + trafficlight + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + "Must stop")
+// }
+// else if(trafficlight === "yellow" || trafficlight === "yellow"){
+//     document.write(`\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + "<b>Signal color</b>" + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + "<b>message</b>")
+//     document.write("<br><br>")
+//     document.write(`\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + trafficlight + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + "Ready to move")
+// }
+// else if(trafficlight === "green" || trafficlight === "Green"){
+//     document.write(`\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + "<b>Signal color</b>" + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + "<b>message</b>")
+//     document.write("<br><br>")
+//     document.write(`\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + trafficlight + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + "Move")
+// }
+// else{
+//     document.write(`\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + "<b>Signal color</b>" + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + "<b>message</b>")
+//     document.write("<br><br>")
+//     document.write(`\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + "invalid color" + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + "no message found")
+// }
+
+// task:04
+// var fuel = +prompt("Enter a remaining fuel in your car")
+
+// if(fuel < 0.25){
+//     alert("please refill the fuel in your car")
+// }
+// else{
+//     alert("No need to refiil fuel in your car")
+// }
+
+// task:05
+// var a = 4;
+// if(++a === 5){
+//     alert("given condition for variable a is true");
+// }
+
+// var b = 82;
+// if(b++ === 83){
+//     alert("given condition for variable b is true");
+// }
+
+
+// var c = 12;
+// if(c++ === 13){
+//     alert("condition 1 is true");
+// }
+// else if(c === 13){
+//     alert("condition 2 is true")
+// }
+// else if(++c < 14){
+//     alert("condition 3 is true")
+// }
+// else if (c === 14) {
+//     alert("condition 4 is true");
+// }
+
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost) {
+//     alert("The cost equals");
+// }
+// if (true) {
+//     alert("True");
+// }
+// if (false) {
+//     alert("False");
+// }
+// if ("car" < "cat") {
+//     alert("car is smaller than cat");
+// }
+
+// task:06
+// var sub1 = +prompt("Enter a 1st subject obtain mark")
+// var sub1t = +prompt("Enter a 1st subject total marks")
+
+// var sub2 = +prompt("Enter a 2nd subject obtain mark")
+// var sub2t = +prompt("Enter a 2nd subject total marks")
+
+// var sub3 = +prompt("Enter a 3rd subject obtain mark")
+// var sub3t = +prompt("Enter a 3rd subject total marks")
+
+// var totalobtain = sub1 + sub2 + sub3;
+// var tmarks = sub1t + sub2t + sub3t;
+
+// var percentage = totalobtain / tmarks * 100;
+
+// if(percentage >= 80){
+//     document.write("<h1>Marks Sheet</h1>")
+//     document.write(`<h3>Total marks : ${tmarks}</h3>`)
+//     document.write(`<h3>Marks obtained : ${totalobtain}</h3>`)
+//     document.write(`<h3>Percentage : ${percentage}%</h3>`)
+//     document.write(`<h3>Grade : A-one</h3>`)
+//     document.write(`<h3>Remarks : Excellent</h3>`)
+// }
+// else if(percentage >= 70){
+//     document.write("<h1>Marks Sheet</h1>")
+//     document.write(`<h3>Total marks : ${tmarks}</h3>`)
+//     document.write(`<h3>Marks obtained : ${totalobtain}</h3>`)
+//     document.write(`<h3>Percentage : ${percentage}%</h3>`)
+//     document.write(`<h3>Grade : A</h3>`)
+//     document.write(`<h3>Remarks : Good</h3>`)
+// }
+// else if(percentage >= 60){
+//     document.write("<h1>Marks Sheet</h1>")
+//     document.write(`<h3>Total marks : ${tmarks}</h3>`)
+//     document.write(`<h3>Marks obtained : ${totalobtain}</h3>`)
+//     document.write(`<h3>Percentage : ${percentage}%</h3>`)
+//     document.write(`<h3>Grade : B</h3>`)
+//     document.write(`<h3>Remarks : you need to improve</h3>`)
+// }
+// else{
+//     document.write("<h1>Marks Sheet</h1>")
+//     document.write(`<h3>Total marks : ${tmarks}</h3>`)
+//     document.write(`<h3>Marks obtained : ${totalobtain}</h3>`)
+//     document.write(`<h3>Percentage : ${percentage}%</h3>`)
+//     document.write(`<h3>Grade : Fail</h3>`)
+//     document.write(`<h3>Remarks : Sorry</h3>`)
+// }
+
+
+// task:07
+
+// var user = +prompt("Enter a number");
+// var guessno = 4;
+
+// if(user === guessno){
+//     alert("Bingo! correct answer")
+// }
+// else if(user === ++guessno){
+//     alert("Close enough to the correct answer")
+// }
+// else{
+//     alert("sorry! wrong answer")
+// }
+
+// task:08
+// var number = +prompt("Enter a number : ");
+//     if (number % 3 == 0) {
+//         alert('divisible by 3')
+//     }
+//     else {
+//         alert("not divisible by 3")
+//     }
+
+
+// task:09
+// var number = +prompt("Enter a number : ");
+// if (number % 2 == 0) {
+//     alert('Even Number')
+// }
+// else {
+//     alert("Odd Number")
+// }
+
+
+// task:10
+// var temp = +prompt("Enter a tempersture")
+// if(temp >= 40){
+//     alert("it is too hot outside ")
+// }
+// else if(temp >= 30){
+//     alert("The wheather today is normal")
+// }
+// else if(temp >= 20){
+//     alert("Today's weather is cool ")
+// }
+// else{
+//     alert("OMG! Today's wheather is so cool")
+// }
+
+// task:11
+// var num1 = +prompt("Enter a First Number")
+// var num2 = +prompt("Enter a Second Number")
+// var operate = prompt("Enter a operation (+, -, *, /, %)")
+
+// if(operate === "+"){
+//     var result = num1 + num2;
+//     alert(`${num1}  ${operate}  ${num2} = ${result} `)
+// }
+// else if(operate === "-"){
+//     var result = num1 - num2;
+//     alert(`${num1}  ${operate}  ${num2} = ${result} `)
+// }
+// else if(operate === "*"){
+//     var result = num1 * num2;
+//     alert(`${num1}  ${operate}  ${num2} = ${result} `)
+// }
+// else if(operate === "/"){
+//     var result = num1 / num2;
+//     alert(`${num1}  ${operate}  ${num2} = ${result} `)
+// }
+// if(operate === "%"){
+//     var result = num1 % num2;
+//     alert(`${num1}  ${operate}  ${num2} = ${result} `)
+// }
