@@ -691,3 +691,169 @@
 // else{
 //     alert("Invalid input!")
 // }
+
+// chapter:14-16
+
+// task:01
+// var arr = [];
+// alert("var arr = [ ];")
+
+
+// task:02
+// arry = new Array();
+// alert("arry = new Array();")
+
+
+// task:03
+// var stringarray = ["karachi", "lahore", "islamabad", "pindi"];
+
+
+// task:04
+// var numarray = [10, 20, 40, 50];
+
+
+// task:05
+// var boolarray = [true, false, true, false];
+
+
+// task:06
+// var mixarray = [1, false, "java", true, "karachi", 2]; 
+
+
+// task:07
+// var qualification = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.PHIL", "PHD"];
+
+// document.write("<h1>Qualification</h1>")
+// document.write(`<h2>1) ${qualification[0]}</h2>`)
+// document.write(`<h2>2) ${qualification[1]}</h2>`)
+// document.write(`<h2>3) ${qualification[2]}</h2>`)
+// document.write(`<h2>4) ${qualification[3]}</h2>`)
+// document.write(`<h2>5) ${qualification[4]}</h2>`)
+// document.write(`<h2>6) ${qualification[5]}</h2>`)
+// document.write(`<h2>7) ${qualification[6]}</h2>`)
+// document.write(`<h2>8) ${qualification[7]}</h2>`)
+
+
+// task:08
+// var namarray = ["Ali", "Ahmed", "Mustafa"]
+// var scoarray = [320, 230, 480];
+// var score1 = scoarray[0] / 500 * 100;
+// var score2 = scoarray[1] / 500 * 100;
+// var score3 = scoarray[2] / 500 * 100;
+
+// document.write(`score of ${namarray[0]} is ${scoarray[0]}. percentage: ${score1} <br>`)
+// document.write(`score of ${namarray[1]} is ${scoarray[1]}. percentage: ${score2} <br>`)
+// document.write(`score of ${namarray[2]} is ${scoarray[2]}. percentage: ${score3}`)
+
+
+// task:09
+// var colors = ["black", "blue", "yellow"]
+// document.write(colors)
+
+// task:9a
+// var colorinput = prompt("Enter a color name which do you want to add at the start")
+// var colors = ["Red", "Green", "Blue"]
+// var addcolor = colors.unshift(colorinput)
+// document.write(colors)
+
+// task:9b
+// var colorinput = prompt("Enter a color name which do you want to add at the last")
+// var colors = ["Red", "Green", "Blue"]
+// var addcolor = colors.push(colorinput)
+// document.write(colors)
+
+// task:9c
+// var colorInput1 = prompt("Enter a color 1 name which do you want to add at the start.");
+// var colorInput2 = prompt("Enter a color 2 name which do you want to add at the start.");
+
+// var colors = ["red", "green", "blue"];
+// var Addedcolor = colors.unshift(colorInput1, colorInput2);
+// document.write(colors)
+
+// task:9d
+
+// var colors = ["red", "green", "blue"];
+// var Addedcolor = colors.shift(colorInput);
+// document.write(colors);
+
+// task:9e
+// var colors = ["red", "green", "blue"];
+// var Addedcolor = colors.pop(colorInput);
+// document.write(colors);
+
+// task:9f
+// var colors = ["red", "green", "blue"];
+// var colorInput = prompt("Enter a color name which do you want to add at the desire position.");
+// var indexNumber = +prompt("which color do you want to add on that index? ");
+// colors.splice(indexNumber, 0, colorInput);
+// document.write(colors);
+
+// task:9g
+// var colors = ["red", "green", "blue"];
+// var deleteIndex = +prompt("At which index do you want to delete color?")
+// var colorDelete = +prompt("which color do you want to delete on that index?")
+// colors.splice(deleteIndex, colorDelete);
+// document.write(colors );
+
+
+// // task:10
+// var score = [20, 10, 70, 50, 60]
+// document.write("Scores of students " + score + "<br>")
+// var sort = score.sort()
+// document.write("Ordered scores of students : " + score)
+
+
+// task:11
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "peshawar"]
+// document.write("Cities list: <br>" + cities + "<br>" )
+// var sity = cities.slice(2,4)
+// document.write("Selected cities list: <br> " + sity)
+
+
+// task:12
+// var arr = ["This", "is", "my",  "cat"];
+//     document.write("<h1>Array: </h1>");
+//     document.write(`<h1>${arr}</h1><br>`);
+
+//     var joined = arr.join(" ");
+
+//     document.write("<h1>String: </h1>");
+//     document.write(`<h1>${joined}</h1><br>`);
+
+
+// task:13
+
+// var acc = ["Keyboard","mouse","printer","monitor"];
+// document.write("<h2>Devices: </h2>");
+// document.write(`<h2>${acc}</h2><br>`);
+
+// var firstDevice = acc.shift();
+// document.write(`<h2>Out: <br>  ${firstDevice}</h2>`);
+
+// var secDevice = acc.shift();
+// document.write(`<h2>Out: <br>  ${secDevice}</h2>`);
+
+// var thirdDevice = acc.shift();
+// document.write(`<h2>Out: <br>  ${thirdDevice}</h2>`);
+
+// var fourthDevice = acc.shift();
+// document.write(`<h2>Out: <br>  ${fourthDevice}</h2>`);
+
+
+// task:14
+// var acc = ["Keyboard","mouse","printer","monitor"];
+//     document.write("<h2>Devices: </h2>");
+//     document.write(`<h2>${acc}</h2><br>`);
+
+//     var firstDevice = acc.pop();
+//     document.write(`<h2>Out: <br>  ${firstDevice}</h2>`);
+
+//     var secDevice = acc.pop();
+//     document.write(`<h2>Out: <br>  ${secDevice}</h2>`);
+
+//     var thirdDevice = acc.pop();
+//     document.write(`<h2>Out: <br>  ${thirdDevice}</h2>`);
+
+//     var fourthDevice = acc.pop();
+//     document.write(`<h2>Out: <br>  ${fourthDevice}</h2>`);
+
