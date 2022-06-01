@@ -573,3 +573,121 @@
 //     var result = num1 % num2;
 //     alert(`${num1}  ${operate}  ${num2} = ${result} `)
 // }
+
+
+// chapter:12=13
+
+// task:01
+
+// var characterUser = prompt("Enter a character (A-Z , a-z ,0-9)") 
+
+// var indexOfChar=characterUser.charCodeAt(0);
+
+// // A-Z (65 to 90)
+//     // a-z (97-122)
+//     // 0-9 (48-57)
+
+// if(indexOfChar>=65 && indexOfChar<=90)
+// {
+//     alert(characterUser +  " " + " upper case")
+// }
+// else if (indexOfChar>=97 && indexOfChar<=122){
+//     alert(characterUser +  " " + "  lower case")
+// }
+// else if (indexOfChar>=48 && indexOfChar<=57){
+//     alert(characterUser +  " " + " Number")
+// }
+// else{
+//     alert("Invalid input !")
+// }
+
+// task:02
+
+// var num1 = +prompt("Enter a first number")
+// var num2 = +prompt("Entr a second number")
+
+// if(num1 > num2){
+//     alert(num1 + " is greater than " + num2)
+// }
+// else if(num1 < num2){
+//     alert(num1 + " is less than " + num2)
+// }
+// else if(num1 === num2){
+//     alert(num1 + " is equal to " + num2)
+// }
+
+// task:03
+
+// var input = +prompt("Enter a number")
+
+// if(input > 0){
+//     alert("Number is positive")
+// }
+// else if(input < 0){
+//     alert("number is negative")
+// }
+// else if(input === 0){
+//     alert("Zero")
+// }
+// else{
+//     alert("input is invalid!")
+// }
+
+// task:04
+
+// var cha = prompt("Enter a character (a-z, A-z)");
+
+// if ((cha === "a") || (cha === "A") || (cha === "e") || (cha === "E") || (cha === "i") || (cha === "I") || (cha === "O") || (cha === "o") || (cha === "u") || (cha === "U")) {
+//     alert(true)
+// }
+// else {
+//     alert(false)
+// }
+
+// task:05
+
+// var realpass = "ifstatement"
+// var inputpass = +prompt("Enter a password")
+
+// if(inputpass === realpass){
+//     alert("password is correct!")
+// }
+// else if(inputpass == ""){
+//     alert("Enter your password")
+// }
+// else{
+//     alert("password is incorrect!")
+// }
+
+// task:06
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+//     alert(greeting)
+// }
+// else {
+//     greeting = "Good evening";
+//     alert(greeting)
+// }
+
+// task:07
+
+// var input = +prompt("Enter a time in 24 hours clock format like: 1900 = 7pm.")
+
+// if(input >= 0000 && input < 1200){
+//     alert("Good Morning!")
+// }
+// else if(input >= 1200 && input < 1700){
+//     alert("Good Afternoon!")
+// }
+// else if(input >= 1700 && input < 2100){
+//     alert("Good evening!")
+// }
+// else if(input >= 2100 && input <= 2359){
+//     alert("Good night!")
+// }
+// else{
+//     alert("Invalid input!")
+// }
