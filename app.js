@@ -857,3 +857,154 @@
 //     var fourthDevice = acc.pop();
 //     document.write(`<h2>Out: <br>  ${fourthDevice}</h2>`);
 
+
+// chapter:17-20
+
+// task:01
+// var multiarr = [[], [], [], []]
+
+
+// task:02
+// var multiarr = [[0,1,2,3], [1,0,1,2], [2,1,0,1]]
+// for(i = 0; i < multiarr.length; i++){
+//     document.write(multiarr[i].join(" ") + "<br>")
+// }
+
+// task:03
+// for (i = 1; i <= 10; i++) {
+//     document.write(i + "<br>")
+// }
+
+// task:04
+// var user = +prompt("Enter your table")
+// var len = +prompt("Enter your table length")
+
+// for (i = 1; i <= len; i++){
+//     document.write(user + " X " + i + " = " + user * i + "<br>")
+// }
+
+// / Task no 5
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"]
+// for (i = 0; i < fruits.length; i++ ){
+//     document.write(fruits[i] + "<br>")
+// }
+// document.write("<br>")
+// for (i = 0; i < fruits.length; i++){
+//     document.write("Element at index " + i + " is " + fruits[i] + "<br>")
+// }
+
+// Task no 6a,b,c,d,e
+// document.write("<h1>Counting</h1>")
+// for (i = 1; i <= 15; i++){
+    // document.write(i + ",")
+// }
+
+// document.write("<h1>Reverse counting</h1>")
+// for (i = 10; i >= 0; i--){
+    // document.write(i + ",")
+// }
+
+
+// document.write("<h1>Even counting</h1>")
+// for (i = 0; i <= 20; i++){
+    // if(i % 2 === 0){
+        // document.write(i + "  ")
+    // }
+// }
+
+
+// document.write("<h1>ODD Number</h1>")
+// for (i = 0; i <= 20; i++) {
+
+    // if (i % 2 === 1) {
+        // document.write(i + " ")
+    // }
+// }
+
+// document.write("<h1>Series</h1>")
+// for (i = 1; i <= 20; i++){
+//     if(i % 2 === 0){
+//         document.write(i + "K" + " ")
+//     }
+// }
+
+// task:07
+// A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// userInput = prompt("Enter a snack :")
+// flag = false;
+// for (i = 0; i <= A.length; i++){
+//     if(userInput === A[i]){
+//         flag = true
+//         document.write(userInput + " is available at index " + i + " in our bakery")
+//     }
+// }
+// if(flag === false){
+//     document.write(userInput + " is not available")
+// }
+
+// task:08
+// var A = [24, 53, 78, 91, 12,400,343,687,5,34,67,89]
+
+// var compareInt = A[0];
+
+//  var bhaiMiljayeTo = "nahi";
+
+
+// for(i=0;i<A.length; i++)
+// {
+//     if(compareInt < A[i]){
+
+//         bhaiMiljayeTo = "han";
+//         compareInt = A[i]
+//     }
+// }
+
+// if(bhaiMiljayeTo === "han"){
+//     console.log(compareInt)
+// }
+// else{
+//     console.log("bhai ni mili")
+    
+// }
+
+
+// task:09
+// var A = [24, 53, 78, 91, 12,400,343,687,5,34,67,89]
+
+// var compareInt = A[0];
+
+//  var bhaiMiljayeTo = "nahi";
+
+
+// for(i=0;i > A.length; i++)
+// {
+//     if(compareInt > A[i]){
+
+//         bhaiMiljayeTo = "han";
+//         compareInt = A[i]
+//     }
+// }
+
+// if(bhaiMiljayeTo === "han"){
+//     console.log(compareInt)
+// }
+// else{
+//     console.log("bhai ni mili")
+    
+// }
+
+
+
+// // task:10
+// for(var i=1; i<=100;i++){
+//     // 1,2,3,4,5,6,7,7....100
+//     // console.log(i) 
+//     if(i%5==0){
+
+//         console.log(i)
+//         // 5,10,15,20
+//     }
+// }
+
+
+
