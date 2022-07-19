@@ -1339,10 +1339,140 @@
 //     document.write("Try again!")
 // }
 
+// chapte:31-34
+
+// task:01
+
+// var date = new Date()
+// document.write(date)
+
+// task:02
+
+// var month= ["January","February","March","April","May","June","July",
+//             "August","September","October","November","December"];
+// var date = new Date()
+// var mnth = date.getMonth()
+// document.write(month[mnth])
+
+// task:03
+
+// var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+// var current = new Date()
+// var getday = current.getMonth()
+// var neww = dayNames[getday]
+// var copy = neww.slice(0,3)
+// document.write(copy)
+
+// task:04
+
+// var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+// var currentDay = new Date().getDay();
+// if (day[currentDay] === "Sunday" || day[currentDay] === "Saturday") {
+
+//     document.write("Its fun day")
+// }
+// else {
+//     document.write("Its NOT fun day")
+
+// }
+
+// task:05
+
+//    var currentDate = new Date().getDate();
+//    console.log(currentDate)
+
+//     if (currentDate < 16) {
+//         alert('First Fifteen Days of the month')
+//     } else {
+//         alert('Last Fifteen Days of the month')
+//     }
+
+// task:06
 
 
+// var currentDate = new Date();
+
+// document.write("Current Date : " + currentDate);
+// document.write("<br>")
+
+// var MidNightJan = new Date("jan 1, 1970").getTime();
 
 
+// var diff = currentDate - MidNightJan;
+// document.write("Elapsed Millisecond since January 1, 1970: " + diff);
+// document.write("<br>")
+
+// var Minutes = diff / (1000 * 60 * 60);
+
+// document.write("Elapsed Minutes since January 1, 1970: " + Minutes);
+
+// task:07
+
+// var date = new Date().getHours();
+// if (date >= 12) {
+//     alert("Its PM")
+// }
+// else {
+//     alert("Its Am")
+// }
+
+// task:08
+
+// var date = new Date("Dec 31, 2020");
+// document.write("Later Date" + date);
+
+// task:09
+
+// var date = new Date("June 18, 2015");
+//     var current = new Date();
+//     var diff = current - date;
+
+//     var RamzanDaysPassed = Math.round(diff / (1000 * 60 * 60 * 24))
+
+// task:10
+
+// var date = new Date("Jan 01, 2015");
+//     var current = new Date();
+//     var diff = current - date;
+
+//     var secPassed = Math.round(diff / (1000 * 60))
+//     document.write("On Refernce date " + date + "," + secPassed + "  Passed since begning of 2015");
+
+// task:11
+
+// var dateTime = new Date("Jan 01, 2015 23:08:16")
+// document.write("Current date" + dateTime)
 
 
+// var beforeHr = new Date("Jan 01, 2015 22:08:16").getTime();
+
+// dateTime.setTime(beforeHr)
+// document.write("1 hour ago, it was " + dateTime)
+
+// task:12
+
+// var user = prompt("Enter your year");
+
+//     var userYear = new Date(user).getTime();
+
+//     var currentYear = new Date().getTime();
+
+//     var diff = currentYear - userYear;
+//     var age = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
+
+//     document.write("Your age is : " + age + "<br>");
+//     document.write("Your birth year is : " + user)
+
+// task:13
+
+// var currentDate = new Date();
+// alert("Current date" + currentDate)
+
+// var yearsBack = new Date("1992 Dec 05").getTime();
+
+// currentDate.setTime(yearsBack);
+
+// alert("100 years back it was" + currentDate);
+
+// task:14
 
