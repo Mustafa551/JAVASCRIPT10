@@ -1257,9 +1257,8 @@
 
 // var name = prompt("Enter your String :");
 // var findWord = prompt("Enter your word which find from string : ");
-// var replacedWord = prompt("Enter your word which find from string : ");
+// var replacedWord = prompt("Enter your word which replace from string : ");
 // var splitedValue = name.split(' ');
-// var count = 0;
 
 // for(i=0; i<splitedValue.length; i++){
 //     if(splitedValue[i]===findWord){
@@ -1268,30 +1267,77 @@
 // }
 // console.log(name)
 
+// chapter:26-30
+
+// task:01
+
+// var user = +prompt("Enter your positive integer")
+
+// document.write("Number: " + user + "<br>")
+// document.write("round off value: " + Math.round(user) + "<br>")
+// document.write("floor value: " + Math.floor(user) + "<br>")
+// document.write("ceil value: " + Math.ceil(user) + "<br>")
+
+// task:02
+
+// var user = +prompt("Enter your negative integer")
+
+// document.write("Number: " + user + "<br>")
+// document.write("round off value: " + Math.round(user) + "<br>")
+// document.write("floor value: " + Math.floor(user) + "<br>")
+// document.write("ceil value: " + Math.ceil(user) + "<br>")
+
+// task:03
+
+// var num = +prompt("Enter a number")
+
+// if(num < 0){
+//     var absolute = num * -1;
+//     document.write("The absolute valute of " + num + " is " + absolute)
+// }else{
+//     document.write("The absolute valute of " + num + " is " + num)
+
+// }
+
+// task:04
+
+// var randomvalues = + prompt("How many random value do you want to after roll the dice?")
+// for (i = 1; i < randomvalues; i++) {
+//     var randomeNumber = Math.floor((Math.random() * 6)) + 1;
+//     document.write("Randome dice value : " + randomeNumber + "<br>")
+// }
+
+// task:05
 
 
 
 
+// task:06
 
+// var randomNumber = Math.floor(Math.random() * 100) + 1;
+// document.write("Random number between 1 to 100 : " + randomNumber + "<br>")
 
+// task:07
 
+// var user = prompt("Enter your weight in kilogram")
 
+// if(user.indexOf(".")){
+//     document.write("The weight of user is " + parseFloat(user) + " Kilograms")
+// }else{
+//     document.write("The weight of user is " + parseInt(user) + " Kilograms")
 
+// }
 
+// task:08
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// var secret = Math.floor(Math.random() * 10) + 1;
+// console.log(secret)
+// var user = +prompt("Enter a number 1 to 10")
+// if(user === secret){
+//     document.write("you win")
+// }else{
+//     document.write("Try again!")
+// }
 
 
 
