@@ -1496,270 +1496,463 @@
 
 // document.write(`<h1>K-Electric Bill <br> </h1>`)
 // document.write(`Customer Name: <b>${customerName}</b> <br> `)
-// document.write(`Month: <b>${Month[currentMonth]}</b> <br>`)
-// document.write(` Number of Units: <b>${numberOfUnit} </b><br>`)
-// document.write(`Charges per unit: <b>${ChargesOfUnit}</b> <br> `)
+// // document.write(`Month: <b>${Month[currentMonth]}</b> <br>`)
+// // document.write(` Number of Units: <b>${numberOfUnit} </b><br>`)
+// // document.write(`Charges per unit: <b>${ChargesOfUnit}</b> <br> `)
 
-// document.write(`Net Amount Payable (within Due Date): <b>${net_Amount_Payable}</b> <br>`)
-// document.write(`Late Payment Surcharge: <b>${LatePaymentSurcharge}</b> <br> </h4>`)
-// document.write(`Gross Amount Payable (after Due Date): <b>${Gross_Amount_Payable}</b> <br>`)
+// // document.write(`Net Amount Payable (within Due Date): <b>${net_Amount_Payable}</b> <br>`)
+// // document.write(`Late Payment Surcharge: <b>${LatePaymentSurcharge}</b> <br> </h4>`)
+// // document.write(`Gross Amount Payable (after Due Date): <b>${Gross_Amount_Payable}</b> <br>`)
 
-// chapter:35-38
+// // chapter:35-38
 
-// task:01
+// // task:01
 
-// function date(){
-//    var New = new Date();
-//    document.write(New)   
+// // function date(){
+// //    var New = new Date();
+// //    document.write(New)   
+// // }
+// // date()
+
+// // task:02
+
+// // function greet(firstname,lastname){
+// //    var name = firstname + lastname
+// //    console.log(name)
+// // }
+// // var firstname = prompt("Enter your firstname")
+// // var lastname = prompt("Enter your lastname")
+
+// // greet(firstname,lastname)
+
+// // task:03
+
+// // function sum() {
+// //    var num1 = +prompt("Enter your firstname")
+// //    var num2 = +prompt("Enter your lastname")
+// //    var plus = num1 + num2
+// //    console.log(plus)
+// // }
+
+// // sum()
+
+// // task:04
+
+// // function calculator(firstNum, secNum) {
+// //    var firstNum = +prompt("Enter you first Number: ")
+// //    var secNum = +prompt("Enter you Last Number: ");
+// //    var operator = prompt("Enter your operator : (+,-,*,/,%")
+// //    if (operator === "+") {
+
+// //        result = firstNum + secNum;
+// //        document.write("Sum of two number is : " + result)
+
+// //    }
+// //    else if (operator === "-") {
+
+// //        result = firstNum - secNum;
+// //        document.write("Subtraction of two number is : " + result)
+
+// //    }
+// //    else if (operator === "*") {
+
+// //        result = firstNum * secNum;
+// //        document.write("Multiplication of two number is : " + result)
+
+// //    }
+// //    else if (operator === "/") {
+
+// //        result = firstNum / secNum;
+// //        document.write("Divide of two number is : " + Math.round(result))
+
+// //    }
+// //    else if (operator === "%") {
+// //        result = firstNum % secNum;
+// //        document.write("Reminder of two number is : " + result)
+
+// //    }
+// //    else {
+// //        document.write("Invalid result")
+// //    }
+// // }
+
+// // calculator()
+
+// // task:05
+
+// // function squares() {
+
+// //    var squareNum = +prompt("Enter a number to find the sqaure of it  : ")
+
+// //    var findSquare = squareNum * squareNum;
+
+// //    document.write("Reminder of two number is : " + findSquare)
+
+// // }
+// // squares()
+
+// // task:06
+
+// // function factorial() {
+// //     // Factorial of n = n! = n × (n – 1) × (n – 2) × … × 1
+// //     var fact = 1;
+// //     var factorialNumber = +prompt("Enter a number to find the factorical that number : ")
+// //     document.write("Factorial Of " + factorialNumber + " ! <br>")
+
+// //     // factorial of negative number is not possible 
+// //     if (factorialNumber < 0) {
+// //         document.write("The factorial of the negative number doesnot perform")
+// //     }
+
+// //     // factorial of 0! = 1
+// //     else if (factorialNumber === 0) {
+
+// //         document.write("The factorial of 0 is 1")
+// //     }
+// //     else if (factorialNumber >= 1) {
+// //         for (i = 1; i <= factorialNumber; i++) {
+
+// //             fact *= i;
+// //             document.write(i + " ")
+
+// //         }
+// //         document.write(" =  " + fact)
+
+// //     }
+// // }
+
+// // task:07
+
+// // function counting() {
+// //     document.write("<h1>Countring</h1> <br>================")
+// //     var startNumber = +prompt("Enter a start Number : ");
+// //     var EndNumber = +prompt("Enter a End Number : ");
+
+
+// //     for (i = startNumber; i <= EndNumber; i++) {
+
+// //         document.write(i + "<br>")
+// //     }
+// // }
+// // counting()
+
+// // task:08
+
+// // function calculateHypotenuse(base, prep) {
+        
+// //     var base = +prompt("Enter a base :")
+// //     var prep = +prompt("Enter a prependicular :")
+// //      var Findbase = base * base;
+// //      var FindPrep = prep * prep;
+// //      var hyp = Math.sqrt(FindPrep + Findbase);
+// //      document.write("Hypotenous of the triangle is : " + hyp)
+
+// //  }
+// //  calculateHypotenuse()
+
+// // task:09
+
+// // function area(width, height) {
+
+// //     var width = +prompt("Enter a width :");
+// //     var height = +prompt("Enter a height :");
+
+// //     A = width * height;
+
+// //     document.write("(Argument as variable) Area of the Rectangle is " + A);
+
+// //     document.write("<br>")
+
+// //     var area = 45 * 54;
+// //     document.write("(Argument as value) Area of the Rectangle is : " + area)
+
+// // }
+// // area()
+
+// // task:10
+
+// // function palindrome() {
+
+
+// //     var text = '';
+// //     var userInput = prompt("Enter a string");
+
+// //     for (var i = userInput.length - 1; i >= 0; i--) {
+// //         text += userInput[i];
+// //     }
+
+// //     if (text === userInput) {
+// //         alert("its palindrome");
+// //     }
+// //     else {
+// //         alert("its not palindrome");
+// //     }
+// // }
+// // palindrome()
+
+// // task:11
+
+// // function titledcase() {
+
+    // var userInput = prompt("Enter a word or Letter").toLowerCase();
+
+    // document.write("User Input : " + userInput + "<br>")
+
+    // document.write("Title case : ")
+
+    // var userInput = userInput.split(' ');
+    // for (i = 0; i < userInput.length; i++) {
+    //     userInput[i] = userInput[i].charAt(0).toUpperCase() + userInput[i].slice(1) + " ";
+    //     document.write(userInput[i])
+    // }
+// // }
+// // titledcase()
+
+// // task:12
+
+// // function longestWord(str){
+
+    // var str = prompt("Enter your string : ")
+    // var splitArrayValue = str.split(' ');
+    
+    // var storeWord = "";
+    
+    // for (var i = 0; i < splitArrayValue.length; i++) {
+    //     if (splitArrayValue[i].length > storeWord.length) {
+    //         storeWord = splitArrayValue[i];
+    //     }
+    // }
+    //     // return storeWord;
+    //     document.write("Actual String is : " + str + "<br>")
+    //     document.write("Longest word in String is : " + storeWord)
+        
+// //     }
+
+// // task:13
+
+// // function letterOccurence(strings, character) {
+
+// //     var strings = prompt("Enter a string :").toLowerCase();
+// //     var character = prompt("Enter a character: ")
+
+// //     var count = 0;
+// //     for (var i = 0; i < strings.length; i++) {
+// //         if (strings.charAt(i) == character)
+// //             count++;
+// //     }
+
+// //     document.write("Text : " + strings + "<br>")
+// //     document.write("There are " + count + " occurrence(s) of the word " + character);
+// // }
+
+// // task:14
+
+// // function CircumferenceAndArea() {
+
+// //     function Circumference(r) {
+// //         var r = parseFloat(prompt("Enter a radius for Circumference of Cricle : "))
+// //         var coc = 2 * Math.PI * r;
+// //         document.write("Circumference of circle " + coc + "<br>");
+// //     }
+// //     function Area(r) {
+// //         var r = parseFloat(prompt("Enter a radius for Area of circle : "))
+// //         var area = Math.PI * r * r;
+// //         document.write("Area of the circle: " + area);
+// //     }
+
+// //     Circumference();
+// //     Area();
+// // }
+
+// // chapter :39-41
+
+// // task:01
+
+// var sum = 1;
+// function power(a,b){
+//     for(i = 1; i <= b; i++){
+//         sum = a*sum;
+//         console.log(sum)
+//     }
+//     alert(sum)
 // }
-// date()
+
+// var powerNo = +prompt("Enter power no : ")
+// var rangeofNo = +prompt("Enter raange no : ")
+
+// power(powerNo,rangeofNo)
+
+// // 1 ------> 2*1 = 2
+// // 2 ------> 2*2 = 4
+// // 3-------> 2*4 = 8
+// // 4
+// // 5
 
 // task:02
 
-// function greet(firstname,lastname){
-//    var name = firstname + lastname
-//    console.log(name)
+//     function year(){
+//     year = +prompt("Enter year")
+// if(year%4===0){
+
+//     console.log("its leap year")
 // }
-// var firstname = prompt("Enter your firstname")
-// var lastname = prompt("Enter your lastname")
-
-// greet(firstname,lastname)
-
-// task:03
-
-// function sum() {
-//    var num1 = +prompt("Enter your firstname")
-//    var num2 = +prompt("Enter your lastname")
-//    var plus = num1 + num2
-//    console.log(plus)
+// else{
+//         console.log("its not leap year")
+//     }
 // }
+    
+    // task:03
 
-// sum()
+    // function side(a,b,c){
+    //     return (a+b+c)/2
+    // }
+    
+    // function area(s,a,b,c){
+    
+    //     return s*(s-a)*s*(s-b)*s*(s-c)
+    // }
+    // var side1 = +prompt("Enter a side 1")
+    // var side2 = +prompt("Enter a side 2")
+    // var sdie3 = +prompt("Enter a side 3")
+    
+    // var sq = side(side1,side2,sdie3)
+    
+    // var a = area(sq,side1,side2,sdie3)
+    // console.log("Area of triangle " + a.toFixed(4))
 
 // task:04
 
-// function calculator(firstNum, secNum) {
-//    var firstNum = +prompt("Enter you first Number: ")
-//    var secNum = +prompt("Enter you Last Number: ");
-//    var operator = prompt("Enter your operator : (+,-,*,/,%")
-//    if (operator === "+") {
-
-//        result = firstNum + secNum;
-//        document.write("Sum of two number is : " + result)
-
-//    }
-//    else if (operator === "-") {
-
-//        result = firstNum - secNum;
-//        document.write("Subtraction of two number is : " + result)
-
-//    }
-//    else if (operator === "*") {
-
-//        result = firstNum * secNum;
-//        document.write("Multiplication of two number is : " + result)
-
-//    }
-//    else if (operator === "/") {
-
-//        result = firstNum / secNum;
-//        document.write("Divide of two number is : " + Math.round(result))
-
-//    }
-//    else if (operator === "%") {
-//        result = firstNum % secNum;
-//        document.write("Reminder of two number is : " + result)
-
-//    }
-//    else {
-//        document.write("Invalid result")
-//    }
+// function avg(m1,m2,m3){
+//     return (m1+m2+m3) / 3
 // }
-
-// calculator()
+// function per(m1,m2,m3){
+//     var obt = m1 + m2 + m3
+//     return (obt / 300) * 100
+// }
+// function main(a,b){
+//     console.log("Average marks of student " + a)
+//     console.log("percentage of student is " + b)
+// }
+// var m1 = +prompt("Enter your first subject marks of 100")
+// var m2 = +prompt("Enter your second subject marks of 100")
+// var m3 = +prompt("Enter your third subject marks of 100")
+// var a = avg(m1,m2,m3)
+// var b = per(m1,m2,m3)
+// main(a,b)
 
 // task:05
 
-// function squares() {
-
-//    var squareNum = +prompt("Enter a number to find the sqaure of it  : ")
-
-//    var findSquare = squareNum * squareNum;
-
-//    document.write("Reminder of two number is : " + findSquare)
-
+// flag = false
+// function indexOf(word,letter){
+//     for(i = 0; i < word.length; i++){
+//         if(word[i] === letter){
+//             alert([i])
+//             flag = true
+//         }
+//     }
+//     if(flag === false){
+//         alert(-1)
+//     }
 // }
-// squares()
+// indexOf("mustafa","t")
 
 // task:06
 
-// function factorial() {
-//     // Factorial of n = n! = n × (n – 1) × (n – 2) × … × 1
-//     var fact = 1;
-//     var factorialNumber = +prompt("Enter a number to find the factorical that number : ")
-//     document.write("Factorial Of " + factorialNumber + " ! <br>")
-
-//     // factorial of negative number is not possible 
-//     if (factorialNumber < 0) {
-//         document.write("The factorial of the negative number doesnot perform")
-//     }
-
-//     // factorial of 0! = 1
-//     else if (factorialNumber === 0) {
-
-//         document.write("The factorial of 0 is 1")
-//     }
-//     else if (factorialNumber >= 1) {
-//         for (i = 1; i <= factorialNumber; i++) {
-
-//             fact *= i;
-//             document.write(i + " ")
-
+// function vowel(string){
+//     var spl = string.split("")
+//     for(i = 0; i < string.length; i++){
+//         var tolo = string[i].toLowerCase()
+//         if(tolo === "a" || tolo === "e" || tolo === "i" || tolo === "o" || tolo === "u"){
+//             spl[i] = ""
 //         }
-//         document.write(" =  " + fact)
-
 //     }
+//     return spl.join("")
 // }
+// var ss = vowel("my name is mustafa")
+// console.log(ss)
 
 // task:07
 
-// function counting() {
-//     document.write("<h1>Countring</h1> <br>================")
-//     var startNumber = +prompt("Enter a start Number : ");
-//     var EndNumber = +prompt("Enter a End Number : ");
-
-
-//     for (i = startNumber; i <= EndNumber; i++) {
-
-//         document.write(i + "<br>")
+// function vowelss(str){
+//     var count = 0
+//     var arr = ["ae","ai","ao","au","ea","ei","eo","eu","ia","ie","io","iu","oa","oe","oi","ou","ua","ue","ui","uo"]
+//     for(i = 0;i < str.length; i++){
+//         for(j= 0; j < arr.length; j++ ){
+//             if(str.slice(i,i+2) === arr[j]){
+//                 count++
+//             }
+//         }
 //     }
+    
+//     return count
 // }
-// counting()
+// var str = prompt("Enter your string")
+// var vowe = vowelss(str) 
+// console.log(vowe)
+
+
+
 
 // task:08
 
-// function calculateHypotenuse(base, prep) {
-        
-//     var base = +prompt("Enter a base :")
-//     var prep = +prompt("Enter a prependicular :")
-//      var Findbase = base * base;
-//      var FindPrep = prep * prep;
-//      var hyp = Math.sqrt(FindPrep + Findbase);
-//      document.write("Hypotenous of the triangle is : " + hyp)
-
-//  }
-//  calculateHypotenuse()
+// function kmtometer(km){
+//     // 1km = 1000m
+//     return km * 1000
+// }
+// function kmtoinches(km){
+//     // 1km = 39370.0787 inches
+//     return km * 39370.0787
+// }
+// function kmtofeet(km){
+//     // 1km = 3280.8399 feet
+//     return km * 3280.8399
+// }
+// function kmtocentimeter(km){
+//     // 1km = 100000 cm
+//     return km * 100000
+// }
+// function main(m,inches,feet,cm){
+//     console.log(`${km} is equal to ${m}`)
+//     console.log(`${km} is equal to ${inches}`)
+//     console.log(`${km} is equal to ${feet}`)
+//     console.log(`${km} is equal to ${cm}`)
+// }
+// var km = +prompt("Enter kilometer")
+// var kmm = kmtometer(km)
+// var kmi = kmtoinches(km)
+// var kmf = kmtofeet(km)
+// var kmc = kmtocentimeter(km)
+// main(kmm,kmi,kmf,kmc)
 
 // task:09
 
-// function area(width, height) {
-
-//     var width = +prompt("Enter a width :");
-//     var height = +prompt("Enter a height :");
-
-//     A = width * height;
-
-//     document.write("(Argument as variable) Area of the Rectangle is " + A);
-
-//     document.write("<br>")
-
-//     var area = 45 * 54;
-//     document.write("(Argument as value) Area of the Rectangle is : " + area)
-
+// function overtime(hour,currsalary){
+    // var nonfrac = Math.floor(hour)
+//     var overtime = 12
+//     if(hour > 40){
+//         var salary = (overtime * (nonfrac - 40)) + currsalary
+//         console.log(salary)
+//     }
+//     else{
+//         console.log(currsalary)
+//     }
 // }
-// area()
+// var hour = +prompt("Enter your hour")
+// var currsalary = +prompt("enter your salary")
+// overtime(hour,currsalary)
 
 // task:10
 
-// function palindrome() {
-
-
-//     var text = '';
-//     var userInput = prompt("Enter a string");
-
-//     for (var i = userInput.length - 1; i >= 0; i--) {
-//         text += userInput[i];
-//     }
-
-//     if (text === userInput) {
-//         alert("its palindrome");
-//     }
-//     else {
-//         alert("its not palindrome");
+// function cash(amount){
+//     if(amount > 0 ){
+//         var hund = Math.floor(amount / 100)
+//         var bala = amount % 100
+//         var fif = Math.floor(bala / 50)
+//         var bala = amount % 50
+//         var ten = Math.floor(bala / 10)
+//         console.log(hund + " " + fif + " " + ten)
 //     }
 // }
-// palindrome()
+// var amount = +prompt("Enter your amount")
+// cash(amount)
 
-// task:11
-
-// function titledcase() {
-
-//     var userInput = prompt("Enter a word or Letter").toLowerCase();
-
-//     document.write("User Input : " + userInput + "<br>")
-
-//     document.write("Title case : ")
-
-//     var userInput = userInput.split(' ');
-//     for (i = 0; i < userInput.length; i++) {
-//         userInput[i] = userInput[i].charAt(0).toUpperCase() + userInput[i].slice(1) + " ";
-//         document.write(userInput[i])
-//     }
-// }
-// titledcase()
-
-// task:12
-
-// function longestWord(str){
-
-//     var str = prompt("Enter your string : ")
-//     var splitArrayValue = str.split(' ');
-    
-//     var storeWord = "";
-    
-//     for (var i = 0; i < splitArrayValue.length; i++) {
-//         if (splitArrayValue[i].length > storeWord.length) {
-//             storeWord = splitArrayValue[i];
-//         }
-//     }
-//         // return storeWord;
-//         document.write("Actual String is : " + str + "<br>")
-//         document.write("Longest word in String is : " + storeWord)
-        
-//     }
-
-// task:13
-
-// function letterOccurence(strings, character) {
-
-//     var strings = prompt("Enter a string :").toLowerCase();
-//     var character = prompt("Enter a character: ")
-
-//     var count = 0;
-//     for (var i = 0; i < strings.length; i++) {
-//         if (strings.charAt(i) == character)
-//             count++;
-//     }
-
-//     document.write("Text : " + strings + "<br>")
-//     document.write("There are " + count + " occurrence(s) of the word " + character);
-// }
-
-// task:14
-
-// function CircumferenceAndArea() {
-
-//     function Circumference(r) {
-//         var r = parseFloat(prompt("Enter a radius for Circumference of Cricle : "))
-//         var coc = 2 * Math.PI * r;
-//         document.write("Circumference of circle " + coc + "<br>");
-//     }
-//     function Area(r) {
-//         var r = parseFloat(prompt("Enter a radius for Area of circle : "))
-//         var area = Math.PI * r * r;
-//         document.write("Area of the circle: " + area);
-//     }
-
-//     Circumference();
-//     Area();
-// }
